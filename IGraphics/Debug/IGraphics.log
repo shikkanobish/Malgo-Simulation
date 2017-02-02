@@ -1,0 +1,50 @@
+﻿Build started 12/20/2015 1:56:13 AM.
+     1>Project "D:\Drive\Project 1-2\IGraphics\IGraphics\IGraphics.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\IGraphics.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\installed_programmes\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+     1>d:\drive\project 1-2\igraphics\igraphics\igraphics.h(104): warning C4101: 'k' : unreferenced local variable
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(271): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(273): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(336): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(340): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(564): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(573): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(685): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(686): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\drive\project 1-2\igraphics\igraphics\imain.cpp(809): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installed_programmes\vc\include\string.h(105) : see declaration of 'strcpy'
+       Link:
+         D:\installed_programmes\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Drive\Project 1-2\IGraphics\Debug\IGraphics.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\IGraphics.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Drive\Project 1-2\IGraphics\Debug\IGraphics.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Drive\Project 1-2\IGraphics\Debug\IGraphics.lib" /MACHINE:X86 Debug\iMain.obj
+         LINK : D:\Drive\Project 1-2\IGraphics\Debug\IGraphics.exe not found or not built by the last incremental link; performing full link
+         IGraphics.vcxproj -> D:\Drive\Project 1-2\IGraphics\Debug\IGraphics.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Drive\Project 1-2\IGraphics\Debug\IGraphics.exe;#1" /manifest Debug\IGraphics.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\IGraphics.unsuccessfulbuild".
+         Touching "Debug\IGraphics.lastbuildstate".
+     1>Done Building Project "D:\Drive\Project 1-2\IGraphics\IGraphics\IGraphics.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.78
